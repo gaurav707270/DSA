@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day03
+    </title>
+</head>
+
+<body>
+    <script>
+        //WAP to check whether a number is Magic Number or not using while loop, do…while loop, for loop.
+
+        let num = 122;
+        let sum = 0;
+        let mul = 1;
+
+        while (num > 0) {
+            let last_d = num % 10;
+
+            sum = sum + last_d;
+            mul = mul * last_d;
+
+            num = Math.floor(num / 10)
+        }
+
+        if (sum === mul) {
+            console.log(" num is magic number")
+        }
+        else {
+            console.log(" num is not a magic number")
+        }
+
+
+    </script>
+</body>
+
+</html>
