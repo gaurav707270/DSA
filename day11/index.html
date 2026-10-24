@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+
+
+    // const checkFizzBuzz = () => {
+
+
+    //     let fizz = 3;
+    //     let buzz = 5;
+
+    //     let checkingValue = 102;
+
+    //     let stopValue = 100;
+
+    //     for (let i = 0; i < stopValue; i++) {
+    //         if (checkingValue % fizz == 0 && checkingValue % buzz == 0) {
+    //             console.log("this is fizz-buzz value")
+    //         }
+    //         else if (checkingValue % fizz == 0) {
+    //             console.log("this is fizz value")
+    //         }
+    //         else if (checkingValue % buzz == 0) {
+    //             console.log("this is buzz value")
+
+    //         }
+    //         else {
+    //             console.log("this is value andivisiable " + checkingValue)
+
+    //         }
+    //     }
+    // }
+
+
+    // checkFizzBuzz()
+
+
+
+    const lists = [[1, 4, 5], [1, 3, 4], [2, 6]]
+
+    const mergeKLists = () => {
+        const newList = []
+
+        for (let i = 0; i < lists.length; ++i) {
+            newList.push(...lists[i])
+
+        }
+
+        return newList.sort((a, b) => a - b)
+
+    };
+
+    const result = mergeKLists()
+
+    console.log(result)
+
+    mergeKLists(lists)
+</script>
+
+</html>
