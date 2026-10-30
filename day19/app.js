@@ -2,7 +2,7 @@
 
 // let num = 10
 
-let a= 0
+// let a= 0
 // let b = 1
 
 // let result = null
