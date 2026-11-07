@@ -10,7 +10,6 @@
     // let sum = a+b
 
 //     a = b
-
 //     b = sum
 
 //     console.log(a)
