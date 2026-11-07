@@ -7,7 +7,7 @@
 
 // for(let i = 1; i <= num ; i++){
 
-//     let sum = a+b
+    let sum = a+b
 
 //     a = b
 //     b = sum
