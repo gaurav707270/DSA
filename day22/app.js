@@ -5,7 +5,7 @@
 
 // let result = {}
 
-for(let i = 0; i < str.length; i++){
+// for(let i = 0; i < str.length; i++){
 //     let newStr = str[i]
 
     if(result[newStr]){
