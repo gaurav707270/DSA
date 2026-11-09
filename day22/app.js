@@ -9,7 +9,7 @@ for(let i = 0; i < str.length; i++){
 //     let newStr = str[i]
 
 //     if(result[newStr]){
-//         result[newStr]++
+        result[newStr]++
 //     }else{
 //         result[newStr] = 1
 //     }
