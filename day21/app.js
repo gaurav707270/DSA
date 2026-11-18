@@ -1,6 +1,6 @@
 // Factorial of a number
 
-// let num = 10
+let num = 10
 // let result = 1
 
 // for(let i = 1; i <= num;i++){
