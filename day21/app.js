@@ -8,7 +8,7 @@
 // }
 
 
-console.log(result)
+// console.log(result)
 
 // Reverse a number
 
