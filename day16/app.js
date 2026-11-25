@@ -1,4 +1,4 @@
-// revercr string
+revercr string
 
 // let str = "gaurav"
 // let newStr = ""
